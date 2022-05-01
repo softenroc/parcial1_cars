@@ -14,11 +14,10 @@ div.banner {
 }
 
 div.center {
+  position: relative;
   width: 100%;
-  top: 5px;
-  left: 10px;
-  right: 10px;
-  bottom: 10px;
+  margin-left: 98px;
+  margin-right: 98px;
 }
 
 div.footer {
