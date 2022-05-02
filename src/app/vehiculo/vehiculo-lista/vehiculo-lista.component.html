@@ -1,0 +1,33 @@
+  <div class="container-fluid">
+    <div class="col-7">
+      <table class="table">
+        <thead class="thead-dark table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Linea</th>
+            <th scope="col">Modelo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let vehiculo of vehiculos">
+            <th scope="row">
+              <dd>{{vehiculo.id}}</dd>
+            </th>
+            <td>
+              <dd>{{vehiculo.marca}}</dd>
+            </td>
+            <td>
+              <dd>{{vehiculo.linea}}</dd>
+            </td>
+            <td>
+              <dd>{{vehiculo.modelo}}</dd>
+            </td>
+        </tr>
+        </tbody>
+      </table>
+      <div>
+        <h5 *ngFor="let marca of marcas;let indice=index">Total {{marca}} : {{cantidad[indice]}}</h5>
+      </div>
+    </div>
+  </div>

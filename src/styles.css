@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+    width: fit-content;
+}
+div.top {
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 14px;
+  margin-left: 98px;
+  margin-right: 98px;
+}
+
+div.banner {
+  align-items: center;
+  width: 1244px;
+}
+
+div.center {
+  position: relative;
+  width: 100%;
+  margin-left: 98px;
+  margin-right: 98px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+th{
+  font-weight: 700;
+}
+
+div.footer {
+  width: 1244px;
+  position: relative;
+  bottom: 0;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+}
